@@ -1,16 +1,28 @@
 body {
     background: #D4CFBC;
     color: #fff;
-    font-family: Courier New;
+    font-family: Courier New, monospace;
+    font-size: 90%;
+    line-height: 1.2;
+    font-weight: normal;
+    text-align: justify;
+    text-indent: 10px;
+    word-spacing: normal;
 }
 h1 {
     color: #fff;
-    font-family: Snell Roundhand;
+    font-family: Snell Roundhand, serif;
     font-size: 250%;
+    text-align: center;
+    text-transform: uppercase;
 }
 nav {
     background-color: #D9D4C1;
-    color: #adaa9c;
+    text-align: center;
+}
+a {
+    color: #595756;
+    text-decoration: none;
 }
 aside {
     background: #6E6B62;
@@ -26,7 +38,11 @@ article {
 }
 pre {
     color: #73716b;
+    text-indent: 0;
 }
 footer {
     background: #D9D4C1;
+}
+img {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
