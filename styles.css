@@ -1,4 +1,6 @@
 body {
+    display: flex;
+    flex-direction: column;
     background: #D4CFBC;
     color: #fff;
     font-family: Courier New, monospace;
@@ -9,6 +11,7 @@ body {
     text-indent: 0;
     word-spacing: normal;
 }
+
 h1 {
     color: #fff;
     font-family: Snell Roundhand, serif;
@@ -16,33 +19,77 @@ h1 {
     text-align: center;
     text-transform: uppercase;
 }
+
 nav {
     background-color: #D9D4C1;
     text-align: center;
 }
+
 a {
     color: #595756;
     text-decoration: none;
 }
+
+table {
+    width: 50%;
+    border: 2px solid white;
+    background: #B3AF9F;
+    margin-bottom: 20px;
+}
+
+.first_row {
+    background: #D9D4C1;
+    text-align: center;
+}
+
+.even {
+    background: #e7e6d4;
+}
+
+.uneven {
+    background: #c7c4b2;
+}
+
 aside {
+    position: absolute;
+    right: 0;
     background: #6E6B62;
     padding: 10px;
     width: 400px;
     float: right;
 }
+
 section {
     background: #B3AF9F;
 }
+
 article {
     background: #BFBBAA;
 }
+
 pre {
     color: #73716b;
     text-indent: 0;
 }
+
 footer {
     background: #D9D4C1;
 }
+
 img {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.role {
+    color: #fcd3d3;
+}
+
+.ascii {
+    color: #3b310e;
+}
+
+@media screen and (max-width: 700px) {
+    .ascii {
+        display: none;
+    }
 }
