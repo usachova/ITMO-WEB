@@ -6,7 +6,7 @@ body {
     line-height: 1.2;
     font-weight: normal;
     text-align: justify;
-    text-indent: 10px;
+    text-indent: 0;
     word-spacing: normal;
 }
 h1 {
@@ -27,7 +27,7 @@ a {
 aside {
     background: #6E6B62;
     padding: 10px;
-    width: 200px;
+    width: 400px;
     float: right;
 }
 section {
