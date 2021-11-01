@@ -1,8 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
-    background: #D4CFBC;
-    color: #fff;
+    background: #ffffff;
+    color: #000000;
     font-family: Courier New, monospace;
     font-size: 90%;
     line-height: 1.2;
@@ -13,7 +13,6 @@ body {
 }
 
 h1 {
-    color: #fff;
     font-family: Snell Roundhand, serif;
     font-size: 250%;
     text-align: center;
@@ -21,13 +20,15 @@ h1 {
 }
 
 nav {
-    background-color: #D9D4C1;
     text-align: center;
 }
 
 a {
+    text-decoration: underline;
+}
+
+.navbar-text {
     color: #595756;
-    text-decoration: none;
 }
 
 table {
@@ -60,7 +61,6 @@ aside {
 }
 
 section {
-    background: #B3AF9F;
 }
 
 article {
