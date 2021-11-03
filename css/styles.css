@@ -3,13 +3,19 @@ body {
     flex-direction: column;
     background: #ffffff;
     color: #000000;
-    font-family: Courier New, monospace;
+    font-family: Gill Sans, sans-serif;
     font-size: 90%;
     line-height: 1.2;
     font-weight: normal;
     text-align: justify;
     text-indent: 0;
     word-spacing: normal;
+}
+
+header {
+    background: #CCCCCC;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -20,15 +26,15 @@ h1 {
 }
 
 nav {
+    background: #F2F2F2;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 a {
+    color: #a35fc4;
     text-decoration: underline;
-}
-
-.navbar-text {
-    color: #595756;
 }
 
 table {
@@ -54,7 +60,7 @@ table {
 aside {
     position: absolute;
     right: 0;
-    background: #6E6B62;
+    background: #E6E6E6;
     padding: 10px;
     width: 400px;
     float: right;
@@ -64,16 +70,13 @@ section {
 }
 
 article {
-    background: #BFBBAA;
 }
 
 pre {
-    color: #73716b;
     text-indent: 0;
 }
 
 footer {
-    background: #D9D4C1;
 }
 
 img {
@@ -81,15 +84,25 @@ img {
 }
 
 .role {
-    color: #fcd3d3;
+    color: #dc6f6f;
 }
 
 .ascii {
-    color: #3b310e;
 }
 
 @media screen and (max-width: 700px) {
     .ascii {
         display: none;
     }
+}
+
+#grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vw;
+}
+
+.rashid {
+    color: white;
 }
