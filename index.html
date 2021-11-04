@@ -10,36 +10,38 @@
     <meta name="keywords"
           content="университет, группа, одногруппники">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js"></script>
 </head>
 <body>
-    <header>
+    <header id="header">
         <h1>⚡️️✨⚡️✨⚡️✨⚡️✨️⚡️M33061⚡️⚡️⚡️🤯⚡️⚡️⚡️⚡️⚡️</h1>
     </header>
-    <nav>
-        <a href="subjects/web.html" title="web">Web-программирование</a>
-        | <a href="subjects/linux.html">Администрирование в ОС Linux</a>
-        | <a href="subjects/uml.html">Анализ и проектирование на UML</a>
-        | <a href="subjects/ml.html">Машинное обучение</a>
-        | <a href="subjects/math.html">Прикладная математика</a>
-        | <a href="subjects/digitalculture.html">Цифровая культура в профессиональной деятельности</a>
-        | <a href="subjects/english.html">Иностранный язык в профессиональной деятельности</a>
-        | <a href="subjects/history.html">История</a>
-        | <a href="subjects/physicalculture.html">Физическая культура</a>
-        | <a href="https://usachova.gitbook.io/m33061/"><b>Рабочий сайт</b></a>
+    <nav id="nav">
+        <p><a href="subjects/web.html" title="web">Web-программирование</a></p>
+        <p><a href="subjects/linux.html">Администрирование в ОС Linux</a>
+        <p><a href="subjects/uml.html">Анализ и проектирование на UML</a>
+        <p><a href="subjects/ml.html">Машинное обучение</a>
+        <p><a href="subjects/math.html">Прикладная математика</a>
+        <p><a href="subjects/digitalculture.html">Цифровая культура в профессиональной деятельности</a>
+        <p><a href="subjects/english.html">Иностранный язык в профессиональной деятельности</a>
+        <p><a href="subjects/history.html">История</a>
+        <p><a href="subjects/physicalculture.html">Физическая культура</a>
+        <p><a href="https://usachova.gitbook.io/m33061/"><b>Рабочий сайт</b></a>
     </nav>
-    <main>
-        <aside>
-            <ul>
-                <b>Дедлайны недели 25.10-31.10:</b>
-                <li>25.10 - ML рубежка 1</li>
-                <li>26.10 - web-программирование лаба 3</li>
-                <li>27.10 - Ml лаба 3</li>
-                <li>30.10 - linux лаба 3</li>
-                <li>31.10 - примат лаба 1</li>
-            </ul>
-        </aside>
+    <aside id="aside">
+        <ul>
+            <b>Дедлайны недели 25.10-31.10:</b>
+            <li>25.10 - ML рубежка 1</li>
+            <li>26.10 - web-программирование лаба 3</li>
+            <li>27.10 - Ml лаба 3</li>
+            <li>30.10 - linux лаба 3</li>
+            <li>31.10 - примат лаба 1</li>
+        </ul>
+    </aside>
+    <main id="main">
         <section>
             <img src="https://raw.githubusercontent.com/usachova/ITMO-WEB/main/pics/dog.jpg"
+                 onclick="return ChangeTaylor(this)"
                  width="450" height="250" title="собака" alt="собака">
             <ol>
                 <b>Список группы:</b>
@@ -98,7 +100,7 @@
         </article>
     </main>
 
-    <footer>
+    <footer id="footer">
         Автор: маха
     </footer>
 </body>
