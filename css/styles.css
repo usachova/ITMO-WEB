@@ -108,13 +108,29 @@ img {
     }
 }
 
-#grid {
+#grid-2-columns {
     display: grid;
+    background: black;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 2vw;
+    grid-gap: 1px;
+    padding: 1px;
+}
+
+#grid-3-columns {
+    display: grid;
+    background: black;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1px;
+    padding: 1px;
 }
 
 .rashid {
     color: white;
+}
+
+.cell {
+    background: white;
+    padding: 10px;
 }
