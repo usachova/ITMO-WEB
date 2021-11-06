@@ -108,7 +108,7 @@ img {
     }
 }
 
-#grid-2-columns {
+.grid-2-columns {
     display: grid;
     background: black;
     grid-template-rows: 1fr 1fr;
@@ -117,7 +117,7 @@ img {
     padding: 1px;
 }
 
-#grid-3-columns {
+.grid-3-columns {
     display: grid;
     background: black;
     grid-template-rows: 1fr;
@@ -126,7 +126,7 @@ img {
     padding: 1px;
 }
 
-#grid-4-columns {
+.grid-4-columns {
     display: grid;
     background: black;
     grid-template-rows: 1fr;
