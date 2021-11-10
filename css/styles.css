@@ -76,6 +76,10 @@ aside {
     background: #F2F2F2;
 }
 
+aside ul.not-active {
+    color: #666666;
+}
+
 section {
 }
 
