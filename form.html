@@ -2,13 +2,12 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>конструктор</title>
+    <title>Форма</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/constructor.js"></script>
 </head>
 <body>
 <header id="header">
-    <h1>конструктор</h1>
+    <h1>Форма обратной связи</h1>
 </header>
 <nav id="nav">
     <p><a href="index.html">Стартовая страница</a></p>
@@ -21,10 +20,20 @@
     <p><a href="subjects/english.html">Иностранный язык в профессиональной деятельности</a>
     <p><a href="subjects/history.html">История</a>
     <p><a href="subjects/physicalculture.html">Физическая культура</a>
-    <p><a class="active" href="constructor.html">конструктор</a>
+    <hr>
+    <p><a class="active" href="form.html">Форма обратной связи</a>
 </nav>
 <main id="main">
-
+    <div>
+        <h2>Ваши предложения и пожелания</h2>
+        <form class="inputField">
+            <input type="text" placeholder="Введите текст">
+            <button>Отправить</button>
+        </form>
+        <ul class="listOfRecords">
+        </ul>
+    </div>
+    <script src="js/form.js"></script>
 </main>
 <footer id="footer">
 </footer>
