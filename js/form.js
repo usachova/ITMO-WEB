@@ -26,7 +26,7 @@ function showRecords() {
     }
     let newLiTag = '';
     listRecords.forEach((element, index) => {
-        newLiTag += `<li> ${element} <span onclick="deleteRecord(${index})">--</span></li>`
+        newLiTag += `<li> ${element} <span onclick="deleteRecord(${index})">✖️</span></li>`
     });
     listOfRecords.innerHTML = newLiTag;
 }
