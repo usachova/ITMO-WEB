@@ -1,7 +1,7 @@
-let loadTime = (function () {
-    return performance.now() / 1000;
-})();
+let loadTime = function () {
+    return performance.now();
+};
 
 document.addEventListener("DOMContentLoaded", function () {
-    console.log('content loaded')
+    console.log('content loaded', loadTime())
 });
