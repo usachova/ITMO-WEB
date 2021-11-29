@@ -1,6 +1,13 @@
 function ChangeTaylor(Taylor) {
-    if (Taylor.src == "https://raw.githubusercontent.com/usachova/pictures-for-site/main/dog.jpg")
+    if (Taylor.src == "https://raw.githubusercontent.com/usachova/pictures-for-site/main/dog.jpg") {
         Taylor.src = "https://raw.githubusercontent.com/usachova/pictures-for-site/main/jaba.jpg";
-    else
+        Taylor.title="сова";
+        Taylor.alt="сова";
+    }
+    else {
         Taylor.src = "https://raw.githubusercontent.com/usachova/pictures-for-site/main/dog.jpg";
+        Taylor.title="собака";
+        Taylor.alt="собака";
+    }
+
 }

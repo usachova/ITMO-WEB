@@ -5,7 +5,7 @@ body {
     "nav main aside"
     "footer footer footer";
     grid-template-rows: 100px 1fr 50px;
-    grid-template-columns: 20% 1fr 20%;
+    grid-template-columns: 20% 1fr 1fr;
     grid-gap: 10px;
     height: 100vh;
     margin: 0;
@@ -73,7 +73,6 @@ a {
 }
 
 aside {
-    background: #F2F2F2;
 }
 
 aside ul.not-active {
@@ -93,23 +92,6 @@ pre {
 footer {
     background: #E6E6E6;
     padding-left: 10px;
-}
-
-img {
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-
-.role {
-    color: #dc6f6f;
-}
-
-.ascii {
-}
-
-@media screen and (max-width: 700px) {
-    .ascii {
-        display: none;
-    }
 }
 
 .grid-2-columns {
@@ -139,11 +121,23 @@ img {
     padding: 1px;
 }
 
-.rashid {
-    color: white;
-}
-
 .cell {
     background: white;
     padding: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        display: grid;
+        grid-template-areas:
+        "header header"
+        "nav main"
+        "nav aside"
+        "footer footer";
+        grid-template-rows: 100px 1fr 1fr 50px;
+        grid-template-columns: 20% 1fr;
+        grid-gap: 10px;
+        height: 100vh;
+        margin: 0;
+    }
 }
