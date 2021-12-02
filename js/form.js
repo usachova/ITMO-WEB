@@ -8,7 +8,7 @@ addButton.onclick = ()=>{
     let text = inputBox.value;
     let getLocalStorage = localStorage.getItem("new entry");
     let listRecords = [];
-    if (getLocalStorage != null) {
+    if (getLocalStorage) {
         listRecords = JSON.parse(getLocalStorage);
     }
     if (text != "") {
@@ -21,7 +21,7 @@ addButton.onclick = ()=>{
 function showRecords() {
     let getLocalStorage = localStorage.getItem("new entry");
     let listRecords = [];
-    if (getLocalStorage != null) {
+    if (getLocalStorage) {
         listRecords = JSON.parse(getLocalStorage);
     }
     let newLiTag = '';
