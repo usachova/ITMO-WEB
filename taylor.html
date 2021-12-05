@@ -2,13 +2,15 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Форма</title>
+    <title>Тейлор</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/taylor_style.css">
     <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/usachova/pictures-for-site/main/icon.png">
+    <script src="js/comments.js"></script>
 </head>
 <body>
 <header id="header">
-    <h1>Форма обратной связи</h1>
+    <h1>Тейлор</h1>
 </header>
 <nav id="nav">
     <p><a href="index.html">Стартовая страница</a></p>
@@ -22,21 +24,23 @@
     <p><a href="subjects/history.html">История</a>
     <p><a href="subjects/physicalculture.html">Физическая культура</a>
     <hr>
-    <p><a class="active" href="form.html">Форма обратной связи</a>
+    <p><a href="form.html">Форма обратной связи</a>
+    <p><a class="active" href="taylor.html">Тейлор</a>
 </nav>
 <main id="main">
-    <div>
-        <h2>Ваши предложения и пожелания + Мнения</h2>
-        <form class="inputField">
-            <input type="text" placeholder="Введите текст">
-            <button>Отправить</button>
-        </form>
-        <ul class="listOfRecords">
-        </ul>
+    <img src="https://github.com/usachova/pictures-for-site/blob/main/taylor/taylor-1.jpg?raw=true"
+         width="250" height="250" title="тейлор" alt="села сидит) ну пусть сидит">
+    <img src="https://github.com/usachova/pictures-for-site/blob/main/taylor/taylor-2.jpg?raw=true"
+         width="250" height="250" title="тейлор" alt="в коробке)">
+    <img src="https://github.com/usachova/pictures-for-site/blob/main/taylor/taylor-3.jpg?raw=true"
+         width="250" height="250" title="тейлор" alt="смотрит наруто)">
+    <br>
+    <button onclick="showComments()">Загрузить комментарии</button>
+    <div class="comments_table">
+
     </div>
-    <script src="js/form.js"></script>
+    <img class="preloader" src="https://github.com/usachova/pictures-for-site/blob/main/loading.gif?raw=true">
+    <p class="error_warning">😳Что-то пошло не так🤯</p>
 </main>
 <footer id="footer">
 </footer>
-</body>
-</html>
