@@ -70,6 +70,7 @@ nav a:hover:not(.active) {
 a {
     color: #a35fc4;
     text-decoration: underline;
+    target: "_blank";
 }
 
 aside {
