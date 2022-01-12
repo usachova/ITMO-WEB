@@ -148,3 +148,28 @@ img {
     background: white;
     padding: 10px;
 }
+
+@media screen and (max-width: 1000px) {
+    body {
+        display: grid;
+        grid-template-areas:
+        "header"
+        "nav"
+        "main"
+        "aside"
+        "footer";
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        height: 100vh;
+        margin: 0;
+    }
+
+    h1 {
+        font-family: Snell Roundhand, serif;
+        font-size: 100%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+}
