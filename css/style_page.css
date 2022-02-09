@@ -109,7 +109,7 @@ img {
     display: grid;
     background: black;
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 60% 20% 1fr;
     grid-gap: 1px;
     padding: 1px;
     margin-right: 50px;
